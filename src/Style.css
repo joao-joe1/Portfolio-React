@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.profile-introduction {
+  display: flex;
+  padding: 100px 290px 100px 290px;
+}
+
+.profile-introduction span {
+  display: flex;
+  margin: 0.3rem 0;
+}
+
+.profile-introduction h1 {
+  font-weight: bold;
+  line-height: 3.2rem;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.profile-introduction p {
+  font-weight: 300px;
+  margin: 0.4rem 0;
+  font-size: 1.01rem;
+  font-family: "Mulish", sans-serif;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #1477e0, #6500a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+  vertical-align: middle;
+  line-height: 1;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.joeimg img {
+  place-content: center;
+  margin-left: 200px;
+  margin-top: 70px;
+  max-width: 150px;
+}
+
+.skills-tec ul,
+li {
+  align-content: center;
+  gap: 15px;
+  display: flex;
+  margin-left: 2px;
+}
+
+.skills-tec li img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  height: 1.9rem;
+  width: 1.9rem;
+}
+
+.skills-tec li {
+  list-style-type: none;
+}
+
+.text-introduction {
+  padding: 10px;
+}

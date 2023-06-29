@@ -1,0 +1,24 @@
+.projetos {
+  margin-top: 120px;
+  margin-left: 15px;
+}
+
+.title {
+  font-size: 30px;
+  color: #1477e0;
+  text-align: center;
+}
+
+.bibliotechno {
+  display: flex;
+  margin-top: 30px;
+  background-color: #ffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  place-content: center;
+  margin-left: 75px;
+  width: 75%;
+}
+
+.bibliotechno img {
+  width: 100%;
+}
